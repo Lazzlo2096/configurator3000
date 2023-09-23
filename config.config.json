@@ -1,0 +1,18 @@
+{
+    "server": {
+      "hostname": "string",
+      "port": "int",
+      "ssl": "bool"
+    },
+    "database": {
+      "host": "string",
+      "port": "int",
+      "username": "string",
+      "password": "string",
+      "dbname": "string"
+    },
+    "logging": {
+      "level": ["info","debug","warning"],
+      "file": "string"
+    }
+  }

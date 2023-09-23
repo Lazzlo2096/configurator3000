@@ -1,0 +1,18 @@
+{
+  "server": {
+    "hostname": "example.com",
+    "port": 8080,
+    "ssl": true
+  },
+  "database": {
+    "host": "db.example.com",
+    "port": 5432,
+    "username": "myuser",
+    "password": "mypassword",
+    "dbname": "mydatabase"
+  },
+  "logging": {
+    "level": "info",
+    "file": "/var/log/myapp.log"
+  }
+}
